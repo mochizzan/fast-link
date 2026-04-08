@@ -464,33 +464,17 @@
                 transition-duration: 0.01ms !important;
             }
         }
-
-        /* Loading Animation */
-        .skeleton {
-            background: linear-gradient(90deg, rgba(255,255,255,0.1) 25%, rgba(255,255,255,0.2) 50%, rgba(255,255,255,0.1) 75%);
-            background-size: 200% 100%;
-            animation: loading 1.5s infinite;
-            border-radius: 8px;
-        }
-
-        @keyframes loading {
-            0% { background-position: 200% 0; }
-            100% { background-position: -200% 0; }
-        }
     </style>
 </head>
 <body>
-    <!-- Background Shapes -->
     <div class="bg-shapes">
         <div class="shape shape-1"></div>
         <div class="shape shape-2"></div>
         <div class="shape shape-3"></div>
     </div>
 
-    <!-- Main Container -->
     <div class="container">
         <div class="glass-card">
-            <!-- Profile Section -->
             <div class="profile">
                 <div class="profile-img-container">
                     <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop" 
@@ -507,7 +491,6 @@
                 </div>
             </div>
 
-            <!-- Stats -->
             <div class="stats">
                 <div class="stat-item">
                     <span class="stat-value">50K+</span>
@@ -523,9 +506,7 @@
                 </div>
             </div>
 
-            <!-- Links Container -->
             <div class="links-container">
-                <!-- Featured Link - Saweria -->
                 <a href="https://saweria.co/username" target="_blank" class="link-item featured" data-link="saweria">
                     <span class="featured-badge">⭐ Support</span>
                     <div class="link-icon icon-saweria">☕</div>
@@ -539,7 +520,6 @@
                     <div class="link-arrow">→</div>
                 </a>
 
-                <!-- Instagram -->
                 <a href="https://instagram.com/username" target="_blank" class="link-item" data-link="instagram">
                     <div class="link-icon icon-instagram">📷</div>
                     <div class="link-content">
@@ -549,7 +529,6 @@
                     <div class="link-arrow">→</div>
                 </a>
 
-                <!-- TikTok -->
                 <a href="https://tiktok.com/@username" target="_blank" class="link-item" data-link="tiktok">
                     <div class="link-icon icon-tiktok">🎵</div>
                     <div class="link-content">
@@ -559,7 +538,6 @@
                     <div class="link-arrow">→</div>
                 </a>
 
-                <!-- YouTube -->
                 <a href="https://youtube.com/@username" target="_blank" class="link-item" data-link="youtube">
                     <div class="link-icon icon-youtube">▶️</div>
                     <div class="link-content">
@@ -571,7 +549,6 @@
 
                 <div class="divider"></div>
 
-                <!-- Twitter/X -->
                 <a href="https://twitter.com/username" target="_blank" class="link-item" data-link="twitter">
                     <div class="link-icon icon-twitter">🐦</div>
                     <div class="link-content">
@@ -581,7 +558,6 @@
                     <div class="link-arrow">→</div>
                 </a>
 
-                <!-- GitHub -->
                 <a href="https://github.com/username" target="_blank" class="link-item" data-link="github">
                     <div class="link-icon icon-github">💻</div>
                     <div class="link-content">
@@ -591,7 +567,6 @@
                     <div class="link-arrow">→</div>
                 </a>
 
-                <!-- LinkedIn -->
                 <a href="https://linkedin.com/in/username" target="_blank" class="link-item" data-link="linkedin">
                     <div class="link-icon icon-linkedin">💼</div>
                     <div class="link-content">
@@ -601,7 +576,6 @@
                     <div class="link-arrow">→</div>
                 </a>
 
-                <!-- Spotify -->
                 <a href="https://open.spotify.com/user/username" target="_blank" class="link-item" data-link="spotify">
                     <div class="link-icon icon-spotify">🎧</div>
                     <div class="link-content">
@@ -612,7 +586,6 @@
                 </a>
             </div>
 
-            <!-- Footer -->
             <div class="footer">
                 <p>Made with ❤️ using Glassmorphism UI</p>
                 <p style="margin-top: 8px; opacity: 0.7;">© 2024 • <a href="#" onclick="copyLink(event)">Copy Link</a></p>
@@ -620,7 +593,6 @@
         </div>
     </div>
 
-    <!-- Toast Notification -->
     <div class="toast" id="toast">Link copied to clipboard!</div>
 
     <script>
